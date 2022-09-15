@@ -1,0 +1,138 @@
+* {
+    background-color: black;
+    margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nabla', sans-serif;
+}
+button {
+	font-family: 'Nabla', sans-serif;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin-top: 3%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+	align-items: center;
+}
+
+.logo-container,
+.logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+
+.presentation {
+	display: flex;
+	width: 20%;
+	margin-top: 3%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 41%;
+	min-height: 55vh;
+	align-items: center;
+}
+.introduction {
+	flex: 1;
+}
+.intro-text h2 {
+	font-size: 80px;
+	font-weight: 500;
+}
+.intro-text p {
+	margin-top: 5px;
+	font-size: 22px;
+	color: #585772;
+}
+
+ul {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin-top: 3%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    display: flex;
+}
+ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+ul li .fa {;
+    background-color: #ffffff;
+    color: hsl(252, 100%, 50%);
+    font-size: 20px;
+    line-height: 30px;
+    transition: .5s;
+}
+ul li .fa-twitter:hover {
+    background-color: #55acee;
+}
+ul li .fa-instagram:hover {
+    background-color: #e4405f;
+}
+ul li a {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 10%;
+    background-color: white;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+}
+ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+}
+ul li:nth-child(1) a:hover {
+    background-color: #55acee;
+}
+ul li:nth-child(2) a:hover {
+    background-color: #e4405f;
+}
+
+span{
+    color: rgb(255, 255, 255);
+    font-family: 'Lobster', cursive;
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    top: 95%;
+    bottom: auto;
+    right: auto;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+span a {
+    color: #000000;
+    text-decoration: none;
+  }
+  span .fa {
+    color: #E90606;
+    margin: 0 3px;
+    font-size: 10px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+.name{
+    color: #00fdff;
+    font-size: 16px;
+}
