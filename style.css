@@ -125,14 +125,49 @@ span a {
     color: #000000;
     text-decoration: none;
   }
-  span .fa {
-    color: #E90606;
+  span .fa-Blue.fa-diamond {
+    color: #266EF6;
     margin: 0 3px;
-    font-size: 10px;
+    font-size: 16px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  span .fa-Phlox.fa-diamond {
+    color: #E429F2;
+    margin: 0 3px;
+    font-size: 16px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  span .fa-Orange.fa-diamond {
+    color: #FF8B00;
+    margin: 0 3px;
+    font-size: 16px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  span .fa-Red.fa-diamond {
+    color: #FF0130;
+    margin: 0 3px;
+    font-size: 16px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  span .fa-Yellow.fa-diamond {
+    color: #FFD300;
+    margin: 0 3px;
+    font-size: 16px;
+    animation: pound 0.35s infinite alternate;
+    -webkit-animation: pound 0.35s infinite alternate;
+  }
+  span .fa-Green.fa-diamond {
+    color: #12E772;
+    margin: 0 3px;
+    font-size: 16px;
     animation: pound 0.35s infinite alternate;
     -webkit-animation: pound 0.35s infinite alternate;
   }
 .name{
-    color: #00fdff;
+    color: #f0ff00;
     font-size: 16px;
 }
