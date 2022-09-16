@@ -71,7 +71,7 @@ ul li {
 }
 ul li .fa {;
     background-color: #ffffff;
-    color: hsl(252, 100%, 50%);
+    color: black;
     font-size: 20px;
     line-height: 30px;
     transition: .5s;
