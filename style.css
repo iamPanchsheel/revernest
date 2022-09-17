@@ -23,13 +23,26 @@ header {
 	align-items: center;
 }
 
-.logo-container,
 .logo-container {
 	flex: 1;
 }
 .logo {
 	font-weight: 400;
 	margin: 5px;
+}
+
+.profile {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin-top: 3%;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10%;
+    display: flex;
+}
+.fa-solid {
+
 }
 
 .presentation {
@@ -69,9 +82,9 @@ ul li {
     list-style: none;
     margin: 0 10px;
 }
-ul li .fa {
+ul li .fa-brands {
     background-color: #ffffff;
-    color: black;
+    color: Black;
     font-size: 20px;
     line-height: 30px;
     transition: .5s;
@@ -107,16 +120,16 @@ ul li:nth-child(2) a:hover {
 span{
     color: rgb(255, 255, 255);
     font-family: 'Lobster', cursive;
-    font-size: 12px;
+    font-size: 16px;
     display: block;
     position: absolute;
     bottom: 10px;
     position: absolute;
     width: 90%;
-    left: 50%;
-    top: 95%;
-    bottom: auto;
-    right: auto;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    margin-left: 50%;
+    margin-right: 0;
     transform: translateX(-50%) translateY(-50%);
     text-align: center;
 }
@@ -125,48 +138,54 @@ span a {
     color: #000000;
     text-decoration: none;
   }
-  span .fa-Blue.fa-diamond {
+  span:hover .fa-solid {
+    margin: auto;
+    font-size: 18px;
+    transition: all 0.5s;
+    transform: rotate(45deg) translateY(-50px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+
+  span .fa-solid:nth-child(1){
+    transition-delay: 0s;
+  }
+
+  span .fa-solid:nth-child(2){
+    transition-delay: 0.2s;
+  }
+  span .fa-solid:nth-child(3){
+    transition-delay: 0.4s;
+  }
+  span .fa-solid:nth-child(4){
+    transition-delay: 0.6s;
+  }
+  span .fa-solid:nth-child(5){
+    transition-delay: 0.8s;
+  }
+  span .fa-solid:nth-child(6){
+    transition-delay: 1s;
+  }
+
+  span #Blue{
     color: #266EF6;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
-  span .fa-Phlox.fa-diamond {
+  span #Phlox{
     color: #E429F2;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
-  span .fa-Orange.fa-diamond {
+  span #Red{
     color: #FF8B00;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
-  span .fa-Red.fa-diamond {
+  span #Orange{
     color: #FF0130;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
-  span .fa-Yellow.fa-diamond {
+  span #Yellow{
     color: #FFD300;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
-  span .fa-Green.fa-diamond {
+  span #Green{
     color: #12E772;
-    margin: 0 3px;
-    font-size: 16px;
-    animation: pound 0.35s infinite alternate;
-    -webkit-animation: pound 0.35s infinite alternate;
   }
+
 .name{
     color: #f0ff00;
     font-size: 16px;
