@@ -65,7 +65,20 @@ header {
 .intro-text h2 {
 	font-size: 80px;
 	font-weight: 500;
+	animation: swing 3s linear infinite alternate;
+
 }
+
+@keyframes swing {
+    from {
+      transform: rotate(5deg);
+    }
+    to {
+      transform: rotate(-5deg);
+    }
+  }
+
+
 .intro-text p {
 	margin-top: 5px;
 	font-size: 22px;
